@@ -6,7 +6,7 @@
   padding-top: 7px;
 }
 .timeline .timeline_firstitem{
-  min-height: 50px !important;
+  min-height: 80px !important;
 }
 .timeline .MuiTimelineItem-root{
   min-height: 0;
@@ -22,6 +22,7 @@
   background-color: var(--main-color) !important;
   font-size: small !important;
   padding: 10px !important;
+  min-height: 10px;
 }
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root{
@@ -36,6 +37,5 @@
 
 }
 .timeline .separator_padding{
-  padding-left: 9.45px !important;
-  margin-bottom: 20px ;
+  padding-left: 18px !important;
 }

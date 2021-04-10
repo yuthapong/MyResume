@@ -10,7 +10,7 @@ import WorkIcon from "@material-ui/icons/Work";
 import "./CustomTimeline.css";
 import { Typography } from "@material-ui/core";
 
-export const CustomTimeline = ({ title, child, icon }) => {
+export const CustomTimeline = ({ title,  icon, children }) => {
   return (
     <Timeline className="timeline">
       {/* {timeline Header} */}
@@ -22,18 +22,20 @@ export const CustomTimeline = ({ title, child, icon }) => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography className="timeline_header">{title}</Typography>
+          <Typography variant="h6" className="timeline_header">
+            {title}
+          </Typography>
         </TimelineContent>
       </TimelineItem>
       {/* {timeline Content} */}
-      {child}
+      {children}
     </Timeline>
   );
 };
 
 export const CustomTimelineSeparator = () => (
-  <TimelineSeparator className='separator_padding'>
-    <TimelineDot variant='outlined' className='timeline_dot'/>
+  <TimelineSeparator className="separator_padding">
+    <TimelineDot variant="outlined" className="timeline_dot" />
     <TimelineConnector />
   </TimelineSeparator>
 );
