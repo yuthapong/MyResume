@@ -27,7 +27,7 @@
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root{
   font-size: 20px;
-  color: var(--main-font-color);
+  color: white;
 }
 
 .timeline .timeline_dot{

@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 import CustomNavbar from "./components/CustomNavbar/CustomNavbar";
+import { CustomEngSkillChart } from "./components/CustomEngSkillChart/CustomEngSkillChart";
 
 function App() {
   return (
@@ -31,6 +32,14 @@ function App() {
       </Grid>
     </Container>
   );
+}
+
+function ForDev (){
+  return(
+    <Container>
+      <CustomEngSkillChart/>
+    </Container>
+  )
 }
 
 export default App;
