@@ -75,7 +75,7 @@ const barOptions = {
     yAxes: [
       {
         ticks: {
-          fontColor: "var(--main-font-color)", // this here
+          fontColor: "#647c91)", // this here
         },
       },
     ],
