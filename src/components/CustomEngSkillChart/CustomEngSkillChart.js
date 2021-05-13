@@ -72,6 +72,13 @@ const barOptions = {
         },
       },
     ],
+    yAxes: [
+      {
+        ticks: {
+          fontColor: "var(--main-font-color)", // this here
+        },
+      },
+    ],
   },
   legend: { display: false },
 };

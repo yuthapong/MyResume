@@ -1,4 +1,4 @@
-import { Grid, Typography, Tabs } from "@material-ui/core";
+import { Grid, Typography, Tabs, Box } from "@material-ui/core";
 import React from "react";
 import {
   CustomTimeline,
@@ -12,7 +12,6 @@ import EducationDetail from "../../utils/EducationDetail";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 import { CustomEngSkillChart } from "../../components/CustomEngSkillChart/CustomEngSkillChart";
-
 const workhistoryTimeline = () => {
   const workhistoryTimelineItem = ({ title, date, description }) => (
     <TimelineItem>
@@ -22,8 +21,17 @@ const workhistoryTimeline = () => {
         <Typography variant="caption" className="timeline_date">
           {date}
         </Typography>
-        <Typography cariant="body2" paragraph={true} className="timeline_desc">
-          <AssignmentIcon /> {description}
+        <Typography
+          style={{ fontSize: "0.8rem" }}
+          cariant="body2"
+          paragraph={true}
+          className="timeline_desc"
+        >
+          {description.map((val) => (
+            <Box>
+              <AssignmentIcon /> {val}
+            </Box>
+          ))}
         </Typography>
       </TimelineContent>
     </TimelineItem>

@@ -3,20 +3,30 @@ const educationdetails = {
     {
       title: "Project Manager",
       date: "2020 - Present",
-      description:
-        "Organize software project including comprehensive business requirement, summarize requirement to solid software architecture, and mobilized software development with Scrum framework",
+      description: [
+        "Mobilize software development process with Scrum framework",
+        "Analyze process report aim to provide next movement direction ",
+        "Coordinate between development team and business customer",
+        "Design solid software architecture base on business requirement with machine learning deployment capability",
+      ],
     },
     {
       title: "AI Developer",
       date: "2019 - 2020",
-      description:
-        "  Produce brand new android application implemented on the robot from combined artificial intelligence software and robot sensor",
+      description: [
+        "Develop android application to implement on robot (Cruzr)",
+        "Build a API for providing cloud-computed machine learning service",
+        "Develop full-loop life cycle of image machine learning application (gather data, build model, deploy model)",
+      ],
     },
     {
       title: "Network Engineer",
       date: "2018 - 2019",
-      description:
-        " Establish stable network services via initializing device, preventively maintenance, and coping with unexpectedly devices malfunction on a daily basis.",
+      description: [
+        "Establish a stable network services via implement and preventive maintenance both wired and wireless network infrastructure",
+        "Cope device malfunction via diagnosing and troubleshooting",
+        "Gather specific device 's information from provider",
+      ],
     },
   ],
   education: [
@@ -69,5 +79,7 @@ const educationdetails = {
         "Kanabadee Srisomboon, Wilaiporn Lee, Buranin Khemapataphan, Yuthapong Khobkoon, Tinnaphob Dindam, Adisorn Kheaksong",
     },
   ],
+  aboutme:
+    "Experience in the IT domain industry with both AI development and network infrastructure service. Specialize in software architecture design for machine learning application, training data insight, feature engineer, dockerize software application and implement on integration between hardware and AI software, e.g., rock paper scissor game with robot camera then interact with robot arm movement And also familiar with network service and device",
 };
 export default educationdetails;

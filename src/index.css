@@ -1,27 +1,26 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,'Calibri', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Calibri", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("/src/Asset/images/background (2).jpg");
+  margin: 0;
+  background: url("/src/Asset/images/bg.jpg");
   background-size: cover;
-
+  background-repeat: no-repeat;
 }
-
+.root{}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 :root {
-  --main-color: #647C91;  
-  --primary-color: #749B9B;
-  --main-font-color: #B9BAB0;
-  --primary-font-color: #18140E;
-
+  --main-color: #647c91;
+  --primary-color: #749b9b;
+  --main-font-color: #b9bab0;
+  --primary-font-color: #18140e;
 }
 
 .navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
