@@ -10,6 +10,7 @@ import SchoolIcon from "@material-ui/icons/School";
 import { TimelineContent, TimelineItem } from "@material-ui/lab/";
 import EducationDetail from "../../utils/EducationDetail";
 import AssignmentIcon from "@material-ui/icons/Assignment";
+import PersonPinIcon from "@material-ui/icons/PersonPin";
 import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 import { CustomEngSkillChart } from "../../components/CustomEngSkillChart/CustomEngSkillChart";
 const workhistoryTimeline = () => {
@@ -106,7 +107,12 @@ const ResearchTimeline = () => {
             );
           })}
         </Typography>
-        <Typography cariant="body2" paragraph={true} className="timeline_desc">
+        <Typography
+          style={{ fontSize: "0.8rem" }}
+          cariant="body2"
+          paragraph={true}
+          className="timeline_desc"
+        >
           <AssignmentIcon /> {details}
         </Typography>
       </TimelineContent>
@@ -154,6 +160,25 @@ export const EducationProfile = () => {
   return (
     <>
       <Grid container>
+        <Grid className="Aboutmecontainer" item xs={12}>
+          <Typography variant="h6">
+            {" "}
+            <PersonPinIcon style={{fontSize:'44px',color:'var(--main-color)'}}/> About Me
+          </Typography>
+          <hr
+            style={{ width: "100%", height: "1px", backgroundColor: "white" }}
+          />
+          <Typography variant="body1" paragraph={true}>
+            Experience in the IT domain industry with both AI development and
+            network infrastructure service. Specialize in software architecture
+            design for machine learning application, training data insight,
+            feature engineer, dockerize software application and implement on
+            integration between hardware and AI software, e.g., rock paper
+            scissor game with robot camera then interact with robot arm movement
+            And also familiar with network service and device such as access
+            point (AP), switch and firewall
+          </Typography>
+        </Grid>
         <Grid lg={6} sm={12} xs={6} item>
           {workhistoryTimeline()}
         </Grid>

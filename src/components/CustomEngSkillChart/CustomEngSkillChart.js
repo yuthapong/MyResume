@@ -14,6 +14,7 @@ Chart.helpers.extend(Chart.controllers.doughnut.prototype, {
     var height = chart.height;
 
     var fontSize = (height / 114).toFixed(2);
+    ctx.fillStyle = "#b9bab0";
     ctx.font = fontSize + "em Calibri";
     ctx.textBaseline = "middle";
 
@@ -64,6 +65,10 @@ const barData = {
 
 const barOptions = {
   scales: {
+    gridLines: {
+      display: false,
+      color: "#FFFFFF",
+    },
     xAxes: [
       {
         ticks: {
@@ -75,7 +80,7 @@ const barOptions = {
     yAxes: [
       {
         ticks: {
-          fontColor: "#647c91)", // this here
+          fontColor: "#b9bab0",
         },
       },
     ],

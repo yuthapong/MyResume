@@ -1,5 +1,6 @@
 const profiledetails = {
-  Name:'Yuthapong Khobkoon',
+  Surname:'Khobkoon',
+  Firstname:'Yuthapong',
   Title:'Project Manager',
   Birthdate: '24th January 1996',
   Email:'yut.p.khobkoon@gmail.com',

@@ -6,3 +6,8 @@
   font-size: 0.8rem !important;
   margin-top: 2% !important;
 }
+
+.Aboutmecontainer .MuiTypography-root .MuiTypography-h6 > .MuiSvgIcon-root{
+  font-size: 50px !important;
+  color: var(--main-color) !important;
+}

@@ -64,7 +64,7 @@ const educationdetails = {
   ],
   research: [
     {
-      Projectname: "Hand Hygiene Audit Applications",
+      Projectname: "Hand Hygiene Audit Application",
       Position: "Co-researcher",
       details:
         "Develop Android application via React-native framework with firebase realtime database as application database to provide hand hygiene's signal recording and visualization feature ",
